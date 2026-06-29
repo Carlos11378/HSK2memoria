@@ -1,0 +1,29 @@
+{
+  "name": "hsk2-atlas-completo",
+  "version": "1.0.0",
+  "description": "Atlas interativo completo para o HSK 2 com 15 lições, 300 palavras, quiz e prática de escrita.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seu-usuario/hsk2-atlas-completo.git"
+  },
+  "keywords": [
+    "hsk2",
+    "chinese",
+    "mandarin",
+    "flashcards",
+    "quiz",
+    "language-learning",
+    "hanzi"
+  ],
+  "author": "Seu Nome <seu-email@exemplo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seu-usuario/hsk2-atlas-completo/issues"
+  },
+  "homepage": "https://github.com/seu-usuario/hsk2-atlas-completo#readme"
+}
