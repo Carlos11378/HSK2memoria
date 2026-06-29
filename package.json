@@ -1,19 +1,33 @@
 {
-  "name": "hsk2-memoria",
+  "name": "hsk2-atlas-interativo",
   "version": "1.0.0",
-  "description": "HSK 2 Atlas Interativo Completo - 15 licoes, 300 palavras, dialogos reais",
+  "description": "HSK 2 — Atlas Interativo Completo 汉语水平考试二级. Aplicativo de estudo de chinês mandarim com 15 lições, diálogos reais, cartões 3D, quiz e caligrafia.",
   "main": "index.html",
   "scripts": {
     "start": "npx serve .",
-    "dev": "npx serve . -l 8080"
+    "dev": "npx live-server --port=3000 --open=index.html",
+    "lint": "echo 'No lint configured — pure HTML/CSS/JS project'"
   },
   "keywords": [
+    "hsk",
     "hsk2",
     "chinese",
     "mandarin",
     "flashcards",
-    "language-learning"
+    "language-learning",
+    "português",
+    "study",
+    "interactive"
   ],
-  "author": "Carlos11378",
-  "license": "MIT"
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEU_USUARIO/hsk2-atlas-interativo.git"
+  },
+  "homepage": "https://SEU_USUARIO.github.io/hsk2-atlas-interativo"
 }
